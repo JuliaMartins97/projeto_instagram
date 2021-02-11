@@ -5,7 +5,6 @@
         text-decoration: none;
         font-family: sans-serif;
         font-size: 14px;
-
     }
     
     body {
@@ -15,15 +14,16 @@
         margin: 0 auto;
         padding: 0;
         display: flex;
-        justify-content: auto;
+        justify-content: center;
+        align-items: center;
     }
     
     .instagram-wrapper {
         display: flex;
-        align-items: center;
-        justify-content: start;
+        align-items: auto;
+        justify-content: center;
         width: 60%;
-        height: 100vh;
+        height: 100%;
     }
     
     .instagram-phone {
@@ -149,4 +149,4 @@
         .instagram-continue {
             width: 100%;
     }
-
+}
